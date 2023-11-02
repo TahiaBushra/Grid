@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(252, 175, 201);
+    background-color: rgb(255, 130, 172);
 }
 .container {
     height: 100vh;
@@ -37,12 +37,12 @@ body{
 }
 @media screen and (max-width : 1080px) {
     .coffer{
-        background-color: rgb(142, 255, 255);
+        background-color: rgb(142, 153, 255, 0.514);
     } 
 }
 @media screen and (max-width : 768px) {
     .coffer{
-        background-color: lightcoral;
+        background-color: rgb(217, 114, 226);
     } 
 }
 @media screen and (max-width : 480px) {
