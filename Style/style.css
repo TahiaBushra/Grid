@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 175, 201);
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: "S S T" "S S T" "Q A R" "Q A B";
+}
+.coffer{
+    border: 2px solid whitesmoke;
+    border-radius:5px ;
+    margin: 10px;
+}
+.coffer_one{
+    grid-area: S;
+}
+.coffer_two{ 
+    grid-area: T;
+}
+.coffer_three{
+    grid-area: Q;
+}
+.coffer_four{
+    grid-area: A;
+}
+.coffer_five{
+    grid-area: R;
+}
+.coffer_six{
+    grid-area: B;
+}
+@media screen and (max-width : 1080px) {
+    .coffer{
+        background-color: rgb(142, 255, 255);
+    } 
+}
+@media screen and (max-width : 768px) {
+    .coffer{
+        background-color: lightcoral;
+    } 
+}
+@media screen and (max-width : 480px) {
+    .coffer{
+        background-color: plum ;
+    } 
+}
